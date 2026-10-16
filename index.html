@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="작은 시작에서 새로운 가능성을 만나는 나의 첫 번째 웹사이트입니다." />
+    <title>나의 첫 번째 웹사이트</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <a class="brand" href="./" aria-label="처음으로"><span class="brand-mark" aria-hidden="true">✳</span> 나의 작은 공간</a>
+        <span class="edition">MY FIRST CHAPTER</span>
+      </header>
+
+      <main>
+        <section class="hero" aria-labelledby="main-title">
+          <div class="hero-copy">
+            <p class="eyebrow"><span aria-hidden="true"></span> 새로운 시작을 환영해요</p>
+            <h1 id="main-title">나의 첫 번째<br /><span>웹사이트</span></h1>
+            <p class="intro">작은 호기심이 모여 새로운 세상이 됩니다.<br />이곳에서 나만의 이야기를 시작해 보세요.</p>
+            <button id="welcome-button" type="button" aria-controls="welcome-message">반가워요, 시작해 볼까요? <span aria-hidden="true">↗</span></button>
+            <p id="welcome-message" class="welcome-message" role="status" aria-live="polite" aria-atomic="true"></p>
+          </div>
+
+          <div class="illustration" aria-hidden="true">
+            <span class="orbit orbit-one"></span>
+            <span class="orbit orbit-two"></span>
+            <span class="spark spark-one">✦</span>
+            <span class="spark spark-two">✧</span>
+            <div class="hello-card">
+              <div class="card-bar"><span></span><span></span><span></span></div>
+              <div class="card-content"><span class="wave">👋</span><strong>Hello, world.</strong><span>모든 멋진 일의 시작은 작은 인사부터.</span></div>
+              <div class="card-bottom"><span class="status-dot"></span> 가능성으로 가득한 공간 <span>01 / ∞</span></div>
+            </div>
+            <span class="little-note">a little start, a big possibility</span>
+          </div>
+        </section>
+
+        <section class="features" aria-label="이 공간을 소개합니다">
+          <article><span class="feature-number">01</span><h2>가볍게 시작하기</h2><p>복잡한 준비 없이, 작은 아이디어 하나면 충분해요.</p></article>
+          <article><span class="feature-number">02</span><h2>나답게 만들어 가기</h2><p>좋아하는 색과 이야기로 나만의 공간을 채워 보세요.</p></article>
+          <article><span class="feature-number">03</span><h2>어디서든 함께하기</h2><p>컴퓨터에서도, 손안의 작은 화면에서도 편안하게.</p></article>
+        </section>
+      </main>
+
+      <footer><span>작은 시작, 무한한 가능성.</span><span>Made with curiosity <span aria-hidden="true">✳</span></span></footer>
+    </div>
+  </body>
+</html>
