@@ -1,2 +1,21 @@
 # my-first-project
-Codex test project
+
+HTML, CSS, JavaScript로 만든 반응형 웹사이트입니다. 버튼을 누르면 환영 메시지가 나타납니다.
+
+## 실행 방법
+
+별도 패키지 설치 없이 `index.html` 파일을 웹 브라우저에서 열면 됩니다.
+
+로컬 서버로 실행하려면 Python 3가 설치된 환경에서 프로젝트 폴더로 이동해 다음 명령을 실행하세요.
+
+```sh
+python3 -m http.server 8000 --bind 127.0.0.1
+```
+
+브라우저에서 `http://127.0.0.1:8000`으로 접속합니다. 종료하려면 터미널에서 `Ctrl+C`를 누르세요.
+
+## 파일 구성
+
+- `index.html`: 페이지 구조와 콘텐츠
+- `styles.css`: 디자인과 모바일 반응형 스타일
+- `script.js`: 버튼 클릭 시 환영 메시지 표시
